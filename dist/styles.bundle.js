@@ -1,11 +1,11 @@
 webpackJsonp([1,3],{
 
-/***/ 1059:
+/***/ 1060:
 /***/ function(module, exports, __webpack_require__) {
 
+__webpack_require__(494);
 __webpack_require__(492);
-__webpack_require__(490);
-module.exports = __webpack_require__(491);
+module.exports = __webpack_require__(493);
 
 
 /***/ },
@@ -320,13 +320,13 @@ function updateLink(linkElement, obj) {
 
 /***/ },
 
-/***/ 490:
+/***/ 492:
 /***/ function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(775);
+var content = __webpack_require__(776);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(292)(content, {});
@@ -347,13 +347,13 @@ if(false) {
 
 /***/ },
 
-/***/ 491:
+/***/ 493:
 /***/ function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(776);
+var content = __webpack_require__(777);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(292)(content, {});
@@ -374,13 +374,13 @@ if(false) {
 
 /***/ },
 
-/***/ 492:
+/***/ 494:
 /***/ function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(777);
+var content = __webpack_require__(778);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(292)(content, {});
@@ -401,7 +401,7 @@ if(false) {
 
 /***/ },
 
-/***/ 775:
+/***/ 776:
 /***/ function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(276)();
@@ -416,7 +416,7 @@ exports.push([module.i, "clr-icon{display:inline-block;margin:0;height:16px;widt
 
 /***/ },
 
-/***/ 776:
+/***/ 777:
 /***/ function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(276)();
@@ -431,7 +431,7 @@ exports.push([module.i, "/*! normalize.css v4.2.0 | MIT License | github.com/nec
 
 /***/ },
 
-/***/ 777:
+/***/ 778:
 /***/ function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(276)();
@@ -446,5 +446,5 @@ exports.push([module.i, "/* You can add global styles to this file, and also imp
 
 /***/ }
 
-},[1059]);
+},[1060]);
 //# sourceMappingURL=styles.map
